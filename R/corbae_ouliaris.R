@@ -9,7 +9,7 @@
 # University Press, pp. 167–177. https://doi.org/10.1017/CBO9781139164863.008.
 #
 # - Shaw, E.S. (1947), Burns and Mitchell on Business Cycles, Journal of
-# Political # Economy, 55(4): pp. 281-298. https://doi.org/10.1086/256533
+# Political # Economy, 55(4): pp. 281-298. https://doi.org/10.1086/256533.
 #
 ## Existing implementations of this algorithm in other programming languages:
 #
@@ -21,6 +21,10 @@
 # - Pérez Pérez, J. (2011), COULIARI: Stata module to implement Corbae-Ouliaris
 # frequency domain filter to time series data. Statistical Software Components,
 # S457218, Boston College Department of Economics.
+#
+# Some alternative filtering techniques on time series can be found on the R
+# package named mFilter. Also low_freq and high_freq input handling was inspired
+# from there.
 
 # Remove irrelevant frequencies
 dftse <- function(x, low_freq = NULL, high_freq = NULL)
