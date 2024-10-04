@@ -1,7 +1,7 @@
 Package: corbouli
 Type: Package
 Title: Corbae-Ouliaris Frequency Domain Filtering
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(person("Christos", "Adam", role = c("aut", "cre"),
            email = "econp266@econ.soc.uoc.gr"))
 Maintainer: Christos Adam <econp266@econ.soc.uoc.gr>
@@ -21,7 +21,7 @@ Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 VignetteBuilder: knitr, rmarkdown
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2024-09-25 10:53:23 UTC; Administrator
+Packaged: 2024-10-04 08:53:18 UTC; Administrator
 Author: Christos Adam [aut, cre]
 Repository: CRAN
-Date/Publication: 2024-09-25 11:10:02 UTC
+Date/Publication: 2024-10-04 09:30:05 UTC
