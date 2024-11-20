@@ -1,3 +1,9 @@
+# corbouli 0.1.3
+
+## Minor changes
+
+- Update README.md, Introduction.Rmd, corbae_ouliaris.Rd and DESCRIPTION.
+
 # corbouli 0.1.2
 
 ## Major changes
